@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -16,10 +25,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_MP7k9P": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wWppPx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_jCygbE": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>SeekTexas</em> is more than just a book—it’s an adventure. Hidden somewhere in Texas is a real treasure, and this book contains the clues that could lead you to it. Whether you're a seasoned treasure hunter or simply someone who loves a good mystery, <em>SeekTexas</em> invites you to embark on an exciting journey through Texas!</p><p>The book blends the rich history of Texas with the thrill of exploration. As you solve each clue, you'll uncover new locations, secrets, and stories tied to the land. </p><p></p><p><strong>About the Author</strong></p><p></p>"
+          }
+        },
+        "button_UUnCHN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wWppPx",
+        "text_jCygbE",
+        "button_UUnCHN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "rich_text_MP7k9P"
   ]
 }
