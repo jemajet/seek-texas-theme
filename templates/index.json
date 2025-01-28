@@ -15,8 +15,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Do you have what it takes?",
-            "heading_size": "h0"
+            "heading": "<strong>Do you have what it takes?</strong>",
+            "heading_size": "h1"
           }
         }
       },
@@ -32,37 +32,89 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "page_qrP3az": {
+      "type": "page",
       "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "round",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
+        "page": "prize-fund",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_JN3Rx9": {
+      "type": "featured-product",
+      "blocks": {
+        "text_cnDTdc": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_niH7Q8": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_gdnP7z": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_nCtiVk": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_PyiyEj": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_9z6TtN": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_BTUBtA": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_cnDTdc",
+        "title_niH7Q8",
+        "price_gdnP7z",
+        "variant_picker_nCtiVk",
+        "quantity_selector_PyiyEj",
+        "buy_buttons_9z6TtN",
+        "share_BTUBtA"
+      ],
+      "settings": {
+        "product": "seektexas-book",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "rich_text",
-    "featured_collection"
+    "featured_product_JN3Rx9",
+    "page_qrP3az"
   ]
 }
