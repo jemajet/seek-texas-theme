@@ -15,32 +15,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "rich_text_HEQJdF": {
-      "type": "rich-text",
-      "blocks": {
-        "text_eMp8F9": {
-          "type": "text",
-          "settings": {
-            "text": "<p>SEEKTEXAS IS AN ADVENTURE, DESIGNED TO BE ENTERTAINING AND EDUCATIONAL, FEATURING THE ESSENCE OF TEXAS, ITS HISTORY AND FOLKLORE. The SeekTexas book, its pictures, and its stories contain clues and puzzles that may lead you to another hidden treasure – $25,000 IN GOLD PLUS A PILE OF CASH!The Treasure Hunt is a legitimate offering. No digging or trespassing is required or allowed. A hidden box is located in a public space, accessible day or night. Bodily risk or significant financial investment is not necessary. Your problem-solving ability is the only tool you need. The Treasure consists of 10 one-troy-ounce Gold American Eagles* – plus five dollars will be added to the Treasure for each SeekTexas book sold and registered. The Treasure is secure in a Texas bank safe deposit box. Your adventure begins once you register your SeekTexas Official Registration Number (found in each individual SeekTexas book) at the website: SeekTexas.com. As a participant, your mission is to find a 3-inch SeekTexas Challenge Coin. The Coin rests inside a sealed box, hidden somewhere in the state of Texas. The first registered<br/>participant to find the Coin has the opportunity to solve the Final Puzzle, become the Winner, and claim the Treasure of CASH and GOLD!</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_eMp8F9"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
-    "main",
-    "rich_text_HEQJdF"
+    "main"
   ]
 }
